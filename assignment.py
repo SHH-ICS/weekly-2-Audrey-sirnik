@@ -10,7 +10,7 @@ while 1:
     print("results")
     print("area is:",r**2*math.pi)
     print("circumference is:",d*math.pi)
-    break
+    continue
   else:
     print("error")
     print("please ensure the value you entered is a positive number without units or characters")
