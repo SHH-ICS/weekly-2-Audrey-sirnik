@@ -3,7 +3,7 @@ print("welcome")
 print("area and circumference calulator")
 while 1:
   print("Enter diameter here")
-  diameter = input()
+  diameter = float(input())
   if diameter.isdecimal() == True:
     d = float(diameter)
     r = float(d/2)
