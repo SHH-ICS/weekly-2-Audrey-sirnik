@@ -4,13 +4,31 @@
 
     <!-- MDL Inclusions -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.amber-orange.min.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 
   </head>
 
   <body>
-  
+      <!-- Always shows a header, even in smaller screens. -->
+      <div class = "mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class = "mdl-layout__header">
+           <div class = "mdl-layout__header-row">
+              <!-- Title -->
+              <span class = "mdl-layout-title">Welcome <br> Area and circumference calculator</span>
+              <!-- Add spacer, to align navigation to the right -->
+              <div class = "mdl-layout-spacer"></div>
+           </div>
+        </header>
+        
+        <div class = "mdl-layout__drawer">
+           <span class = "mdl-layout-title">HTML5 Tutorial</span>
+        </div>
+     
+        <main class = "mdl-layout__content">
+           <div class = "page-content">Hello World!</div>
+        </main>
+     </div>
     <form name="myForm" action="handler.php" method="POST">
   <!-- Textfield with Floating Label -->
       <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">

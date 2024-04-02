@@ -16,9 +16,9 @@ while 1:
       print("error")
       print("please ensure the value you entered is a positive number without units or characters")
       print("try again")
-      continue
+      break
   except:
     print("error")
     print("please ensure the value you entered is a positive number without units or characters")
     print("try again")
-    continue
+    break
