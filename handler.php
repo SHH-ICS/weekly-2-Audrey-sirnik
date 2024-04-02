@@ -10,13 +10,26 @@
   <body>
     
     <?php
-    $myVariable = "";
-    if ( isset( $_POST['myVariable'] ) ){
-      $myVariable = $_POST['myVariable'];
+    $diameter = "";
+    if ( isset( $_POST['diameter'] ) ){
+      $diameter = $_POST['diameter'];
     }
-    echo "<h1>My Program</h1>\n";
-    echo "<p>My Variable is = ".$myVariable."</p>\n";
+    if ($diameter>=0 && is_numeric($diameter))
+    {
+    $radius=$dimeter/2;
+    $area=M_PI*$radius**2;
+    $circumference=M_PI*$diameter;
+    echo "<h1> Your Results: </h1>";
+    echo "<h3> Area=".$area."</h3>";
+    echo "<h3> Circumference=".$circumference."</h3>";
+    }
+    else{
+      echo"<h1><center> Error </center><h1>";
+      echo"<h3>unable to calculate. <br> please ensure the value you entered is a positive number without units or characters </h3>";
+    }
     ?>
+  <a href=index.html>
+    <center><button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">go back</button></center>
     
   </body>
   
