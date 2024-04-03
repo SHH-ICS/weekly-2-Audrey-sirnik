@@ -2,7 +2,7 @@
 <html>
   <head>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.amber-orange.min.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
     <title>Welcome Page</title>
   </head>
@@ -17,7 +17,7 @@
     if($diameter >=0 && is_numeric($diameter))
     {
     $radius = $dimeter/2;
-    $area = M_PI*$radius**2;
+    $area = M_PI*$radius*$radius;
     $circumference = M_PI*$diameter;
     echo "<h1> Your Results: </h1>";
     echo "<h3> Area=".$area."</h3>";

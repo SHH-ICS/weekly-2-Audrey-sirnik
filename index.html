@@ -15,31 +15,29 @@
         <header class = "mdl-layout__header">
            <div class = "mdl-layout__header-row">
               <!-- Title -->
-              <span class = "mdl-layout-title">Welcome <br> Area and circumference calculator</span>
-              <!-- Add spacer, to align navigation to the right -->
-              <div class = "mdl-layout-spacer"></div>
+              <span class = "mdl-layout__content"><center><p style="font-size: 29px">Welcome <br> Area and circumference calculator</p></center></span>
            </div>
         </header>
         
         <div class = "mdl-layout__drawer">
-           <span class = "mdl-layout-title">HTML5 Tutorial</span>
+           <span class = "mdl-layout__content"><center><p style="font-size: 29px">Welcome<br> Area and circumference calculator</p></center></span>
         </div>
      
         <main class = "mdl-layout__content">
-           <div class = "page-content">Hello World!</div>
+           <div class = "page-content">
+            <form name="myForm" action="handler.php" method="POST">
+            <!-- Textfield with Floating Label -->
+                <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
+                  <input class="mdl-textfield__input" type="text" id="sample3" name="diameter">
+                  <label class="mdl-textfield__label" for="sample3">Enter diameter here...</label>
+                </div>
+              <!-- Colored raised button -->
+                <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
+                   Submit
+                </button>
+              </form>
+            </div>
         </main>
-     </div>
-    <form name="myForm" action="handler.php" method="POST">
-  <!-- Textfield with Floating Label -->
-      <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-        <input class="mdl-textfield__input" type="text" id="sample3">
-        <label class="mdl-textfield__label" for="sample3">Enter diameter here...</label>
       </div>
-    <!-- Colored raised button -->
-      <button class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored">
-         Submit
-      </button>
-    </form>
-
   </body>
 </html>
