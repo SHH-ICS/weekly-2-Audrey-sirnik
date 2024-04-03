@@ -16,7 +16,7 @@
     }
     if($diameter >=0 && is_numeric($diameter))
     {
-    $radius = $dimeter/2;
+    $radius = $diameter/2;
     $area = M_PI*$radius*$radius;
     $circumference = M_PI*$diameter;
     echo "<h1> Your Results: </h1>";
