@@ -4,11 +4,21 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.amber-orange.min.css">
     <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
-    <title>Welcome Page</title>
+    <title>calculations</title>
   </head>
 
   <body>
-    
+  <div class = "mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class = "mdl-layout__header">
+           <div class = "mdl-layout__header-row">
+              <!-- Title -->
+              <span class = "mdl-layout__content"><center><p style="font-size: 29px">Welcome <br> Area and circumference calculator</p></center></span>
+           </div>
+        </header>
+        
+        <div class = "mdl-layout__drawer">
+           <span class = "mdl-layout__content"><center><p style="font-size: 29px">Welcome<br> Area and circumference calculator</p></center></span>
+        </div>
     <?php
     $diameter = "";
     if ( isset( $_POST['diameter'] ) ){
