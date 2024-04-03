@@ -12,12 +12,12 @@
         <header class = "mdl-layout__header">
            <div class = "mdl-layout__header-row">
               <!-- Title -->
-              <span class = "mdl-layout__content"><center><p style="font-size: 29px">Welcome <br> Area and circumference calculator</p></center></span>
+              <span class = "mdl-layout__content"><center><p style="font-size: 40px">Your results:</p></center></span>
            </div>
         </header>
         
         <div class = "mdl-layout__drawer">
-           <span class = "mdl-layout__content"><center><p style="font-size: 29px">Welcome<br> Area and circumference calculator</p></center></span>
+           <span class = "mdl-layout__content"><center><p style="font-size: 40px">Your results:</p></center></span>
         </div>
     <?php
     $diameter = "";
@@ -29,7 +29,6 @@
     $radius = $diameter/2;
     $area = M_PI*$radius*$radius;
     $circumference = M_PI*$diameter;
-    echo "<h1> Your Results: </h1>";
     echo "<h3> Area=".$area."</h3>";
     echo "<h3> Circumference=".$circumference."</h3>";
     }
